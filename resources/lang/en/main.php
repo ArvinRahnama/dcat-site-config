@@ -17,6 +17,9 @@ return [
      'login_layout' => 'Login Page Layout',
      'paginate_default' => 'Number of Items per Page',
 
+     'contactus_enabled' => 'Contact Us Enabled',
+     'contactus_link' => 'Contact Us Link',
+
      'recaptch_enabled' => 'reCaptcha Enabled',
      'recaptch_site' => 'reCaptcha Site',
      'recaptch_secret' => 'reCaptcha Secret',
