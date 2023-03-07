@@ -13,6 +13,7 @@ return [
      'logo_mini' => 'Logo Mini',
      'allow_register' => 'Allow Registration',
      'allow_reset_password' => 'Allow Reset Password',
+     'login_background_image' => 'Login Background Image',
      'login_image' => 'Login Image',
      'login_layout' => 'Login Page Layout',
      'paginate_default' => 'Number of Items per Page',

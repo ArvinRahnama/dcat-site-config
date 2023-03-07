@@ -83,6 +83,11 @@ class SiteConfigForm extends Form
             ->uniqueName()
             ->default(config('admin.login-image'));
 
+        $this->image('admin_login-background-image', Support::trans('main.login_background_image'))
+            ->autoUpload()
+            ->uniqueName()
+            ->default(config('admin.login-background-image'));            
+
         $this->number('admin_paginate-default', Support::trans('main.paginate_default'))->default(config('admin.paginate-default'));
         // $this->radio('app_locale', Support::trans('main.lang'))
         //     ->options(['en' =>'English', 'ru' => 'Russian'])
