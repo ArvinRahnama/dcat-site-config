@@ -52,6 +52,10 @@ class SiteConfigForm extends Form
         $this->text('admin_recaptch-site', Support::trans('main.recaptch_site'))->default(config('admin.recaptch-site'));
         $this->text('admin_recaptch-secret', Support::trans('main.recaptch_secret'))->default(config('admin.recaptch-secret'));
 
+        $this->text('admin_wordpress_host', Support::trans('main.wordpress_host'))->default(config('admin.wordpress.host'));
+        $this->text('admin_wordpress_client-id', Support::trans('main.wordpress_client_id'))->default(config('admin.wordpress.client-id'));
+        $this->text('admin_wordpress_client-secret', Support::trans('main.wordpress_client_secret'))->default(config('admin.wordpress.client-secret'));;;
+
         $this->radio('admin_layout_sidebar-style', Support::trans('main.menu_style'))
             ->options(['light' => 'Light', 'dark' => 'Dark'])
             ->default(config('admin.layout.sidebar-style'));

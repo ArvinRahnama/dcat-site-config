@@ -24,4 +24,8 @@ return [
      'recaptch_enabled' => 'reCaptcha Enabled',
      'recaptch_site' => 'reCaptcha Site',
      'recaptch_secret' => 'reCaptcha Secret',
+
+     'wordpress_host' => 'WordPress Host',
+     'wordpress_client_id' => 'WordPress Client ID',
+     'wordpress_client_secret' => 'WordPress Client Secret',
 ];
