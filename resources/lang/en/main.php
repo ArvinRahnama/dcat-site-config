@@ -1,5 +1,6 @@
 <?php
 return [
+     'locale' => 'Language',
      'site_config' =>'Site Configuration',
      'updated_success' => 'Successfully updated',
      'powered_by' => 'Powered by text',
