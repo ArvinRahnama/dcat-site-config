@@ -93,7 +93,7 @@ class SiteConfigForm extends Form
             ->default(config('admin.login-background-image'));            
 
         $this->radio('admin_locale', Support::trans('main.locale'))
-            ->options(['en' => 'English', 'es' => 'Española', 'pt' => 'Português'])
+            ->options(['en' => 'English', 'es' => 'Española', 'pt' => 'Português', 'ja' => 'Japanese'])
             ->default(config('app.locale'));            
 
         $this->number('admin_paginate-default', Support::trans('main.paginate_default'))->default(config('admin.paginate-default'));
