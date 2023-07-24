@@ -29,4 +29,5 @@ return [
      'wordpress_host' => 'WordPress Host',
      'wordpress_client_id' => 'WordPress Client ID',
      'wordpress_client_secret' => 'WordPress Client Secret',
+     'dark_mode_switch' => 'Dark Mode Switch',
 ];

@@ -45,6 +45,9 @@ class SiteConfigForm extends Form
 
         $this->switch('admin_contactus-enabled', Support::trans('main.contactus_enabled'))
             ->default(config('admin.contactus-enabled'));
+        
+        $this->switch('admin_layout_dark-mode-switch', Support::trans('main.dark_mode_switch'))
+            ->default(config('admin.layout.dark-mode-switch'));
 
         $this->text('admin_contactus-link', Support::trans('main.contactus_link'))->default(config('admin.contactus-link'));
 
