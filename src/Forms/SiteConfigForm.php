@@ -68,7 +68,7 @@ class SiteConfigForm extends Form
             ->default(config('admin.login-layout'));
 
         $this->radio('admin_layout_color', Support::trans('main.base_color'))
-            ->options(['default' => 'Default', 'blue' => 'Blue', 'blue-light' => 'Light Blue', 'green' => 'Green', 'black' => 'Black', 'yellow' => 'Yellow', 'brown' => 'Brown'])
+            ->options(['default' => 'Default', 'blue' => 'Blue', 'blue-light' => 'Light Blue', 'blue-dark' => 'Dark Blue', 'green' => 'Green', 'black' => 'Black', 'yellow' => 'Yellow', 'brown' => 'Brown'])
             ->default(config('admin.layout.color'));
 
         $this->radio('admin_layout_navbar-color', Support::trans('main.nav_bar_color'))
