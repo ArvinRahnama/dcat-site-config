@@ -97,7 +97,18 @@ class SiteConfigForm extends Form
 
         $this->radio('admin_locale', Support::trans('main.locale'))
             ->options(['en' => 'English', 'es' => 'Española', 'pt' => 'Português', 'ja' => 'Japanese'])
-            ->default(config('app.locale'));            
+            ->default(config('app.locale'));         
+            
+        $this->divider(Support::trans('main.favicon'));
+        $this->image('admin_icons_icon-32', Support::trans('main.favicon_icon_32'))
+            ->autoUpload()
+            ->uniqueName()
+            ->default(config('admin.icons.icon-32'));
+
+        $this->image('admin_icons_icon-192', Support::trans('main.favicon_icon_192'))
+            ->autoUpload()
+            ->uniqueName()
+            ->default(config('admin.icons.icon-192'));            
 
         $this->number('admin_paginate-default', Support::trans('main.paginate_default'))->default(config('admin.paginate-default'));
         // $this->radio('app_locale', Support::trans('main.lang'))

@@ -30,4 +30,7 @@ return [
      'wordpress_client_id' => 'WordPress Client ID',
      'wordpress_client_secret' => 'WordPress Client Secret',
      'dark_mode_switch' => 'Dark Mode Switch',
+     'favicon' => 'Favicon Settings',
+     'favicon_icon_32' => 'Icon Size of 32x32',
+     'favicon_icon_192' => 'Icon Size of 192x192',
 ];
