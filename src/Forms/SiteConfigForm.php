@@ -80,6 +80,11 @@ class SiteConfigForm extends Form
             ->uniqueName()
             ->default(config('admin.logo-image'));
 
+        $this->image('admin_logo-dark-image', Support::trans('main.logo_dark'))
+            ->autoUpload()
+            ->uniqueName()
+            ->default(config('admin.logo-dark-image'));
+
         $this->image('admin_logo-mini', Support::trans('main.logo_mini'))
             ->autoUpload()
             ->uniqueName()
