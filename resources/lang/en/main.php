@@ -11,6 +11,7 @@ return [
      'base_color' => 'Base Color',
      'nav_bar_color' => 'Top Bar Color',
      'logo' => 'Logo',
+     'logo_dark' => 'Dark Logo',
      'logo_mini' => 'Logo Mini',
      'allow_register' => 'Allow Registration',
      'allow_reset_password' => 'Allow Reset Password',
