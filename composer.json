@@ -1,5 +1,5 @@
 {
-  "name": "khshyr/dcat-site-config",
+  "name": "arvin-rahnama/dcat-site-config",
   "description": "Site configuration, replaces env and config values",
   "alias": "Site Config",
   "type": "library",
