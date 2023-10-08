@@ -16,7 +16,7 @@
   ],
   "require": {
     "php": ">=7.4.0",
-    "khshyr/dcat-admin": "*"
+    "arvin-rahnama/dcat-admin": "*"
   },
   "autoload": {
     "psr-4": {
